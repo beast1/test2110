@@ -16,7 +16,7 @@ $(function() {
         }
         window.getSelection().removeAllRanges();
         copyEmailBtn.innerHTML = 'Copied';
-        copyEmailBtn.clagit ssList.add('promo__copy--complete');
+        copyEmailBtn.classList.add('promo__copy--complete');
 
         copyEmailBtn.addEventListener('mouseleave', function() {
             copyEmailBtn.innerHTML = 'Copy<span> code</span>';
